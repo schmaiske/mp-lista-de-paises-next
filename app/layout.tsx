@@ -8,7 +8,7 @@ import Link from 'next/link'
 const nunitoSans = Nunito_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Lista de Países',
+  title: '🌎 Lista de Países 🌍',
   description: 'Lista de Países criada com o Next 13',
 }
 
@@ -18,6 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    
     <html lang="en">
       <body className={nunitoSans.className}>
         <main className="bg-gray-100 min-h-screen flex flex-col items-center">
