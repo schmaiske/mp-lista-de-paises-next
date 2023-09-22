@@ -26,7 +26,7 @@ export default function RootLayout({
             <section className="container flex items-center gap-3">
               <Link className="flex  items-center  py-2" href="/">
                 <Image width={48} height={48} src="/Logo.svg" alt="Logo da aplicação - emoji de globo"/>
-                <h1 className="font-bold text-2xl">Países do Mundo</h1>
+                <h1 className="font-bold text-2xl pl-4"> Países do Mundo</h1>
               </Link>
             </section>
           </nav>          
